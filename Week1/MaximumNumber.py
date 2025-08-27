@@ -10,4 +10,9 @@ if(a>b):
     else:
         print("c is maximum")
     
-else : print("b is maximum")
+
+else : 
+      if b > c:
+        print("b is maximum")
+    else:
+        print("c is maximum")
